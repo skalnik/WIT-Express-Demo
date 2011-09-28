@@ -4,8 +4,8 @@ WIT Express Demo
 A very simple web application used to introduce the Express web framework. Keeps
 a running count of page loads per app run.
 
-Installation
-------------
+Setup
+-----
 
 ## OS X
 
