@@ -28,9 +28,12 @@ app.configure('production', function(){
 
 // Routes
 
+var count = 0;
+
 app.get('/', function(req, res){
   res.render('index', {
     title: 'WIT'
+    count: count
   });
 });
 
