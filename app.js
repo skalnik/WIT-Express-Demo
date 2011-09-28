@@ -31,6 +31,7 @@ app.configure('production', function(){
 var count = 0;
 
 app.get('/', function(req, res){
+  count += 1;
   res.render('index', {
     title: 'WIT'
     count: count
